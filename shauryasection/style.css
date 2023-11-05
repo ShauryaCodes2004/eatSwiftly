@@ -1,0 +1,56 @@
+
+/*examples-section*/
+.examples-headers{
+    text-align: center;
+}
+.examples-heading-text{
+    flex-direction: column;
+    gap: 20px;
+}
+.examples-area{
+    justify-content: space-between;
+    margin-block: 30px;
+}
+.examples-card{
+    width: 23%;
+    position: relative;
+    min-height: 300px;
+    background: black;
+   background: linear-gradient(rgb(0,0,0.1),rgb(0,0,0.8)) ,url("food.avif");
+   background-size: cover;
+}
+.examples-card:nth-child(3){
+    background: linear-gradient(rgb(0,0,0.1),rgb(0,0,0.8)) ,url("image 3" );
+    background-size: cover;
+}
+.examples-card:nth-child(4){
+    background: linear-gradient(rgb(0,0,0.1),rgb(0,0,0.8)) ,url("image 3" );
+    background-size: cover;
+}
+.examples-card:hover(
+   /*dekho video 1 hr 7 min se */
+)
+
+.card-text{
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    right: 20px;
+    color: white;
+}
+/*cta-section- */
+.cta-section-container{
+    flex-direction: column;
+    text-align: center;
+    gap: 30px;
+    color: white;
+}
+.cta-section{
+    padding: 120px var(--padding--inline--section) 80px;
+    background-color: #183b54;
+}
+.cta-section-container p {
+    color: white;
+    margin-top: 20px;
+}
+/*footer -section */
